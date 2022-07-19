@@ -1,0 +1,52 @@
+.footer{
+    box-sizing: border-box;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    background-color: #ffffff;
+    .inner{
+        display: flex;
+        align-items: center;
+    }
+    .footer__logo{
+        display: block;
+        width: 100%;
+        max-width: 75px;
+        min-width: 70px;
+        height: auto;
+        margin-right: 3.1rem;
+    }
+    .copyright-box{
+        flex-grow: 1;
+        p{
+            font-size: 1.6rem;
+            color: #696969;
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
+        }
+    }
+    .social-box{
+        margin-left: auto;
+        display: flex;
+        li{
+            margin-left: 25px;
+            .social-box__item{
+                display: block;
+                width: 40px;
+                height: 40px;
+                background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                
+                &.social-box__item--vk{
+                    background-image: url(../img/icon-sprite.svg#vk-icon);
+                }
+                &.social-box__item--telegram{
+                    background-image: url(../img/icon-sprite.svg#telegram-icon);
+                }
+            }
+        }
+        
+        
+    }
+    
+}

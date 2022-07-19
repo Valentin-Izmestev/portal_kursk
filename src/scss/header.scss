@@ -1,0 +1,56 @@
+.header{
+    padding-top: 1rem;
+    padding-bottom: 2.3rem;
+    background: rgb(103,187,220);
+    background: linear-gradient(180deg, rgba(103,187,220,1) 0%, rgba(6,118,113,1) 100%);
+    margin-bottom: 3.4rem;
+    .inner{
+        max-width: 1170px;
+        display: flex;
+        align-items: center;
+    }
+    .left-col{
+        margin-right: 0.9rem;
+    }
+    .right-col{
+        flex-grow: 1; 
+    } 
+    .logo-box{
+        display: block;
+    }
+    .logo{
+        max-width: 105px;
+        min-width: 80px;
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        .main-menu{ 
+            display: flex;
+            li{ 
+                &:not(:last-child){
+                    margin-right: 3.8rem;
+                }
+                a{
+                    color: #ffffff;
+                    font-size: 1.9rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    
+    .site-name{
+        display: block;
+        color: #ffffff;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .decor-line{
+        margin-top: 1.2rem;
+        margin-bottom: 1.7rem;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.about-section{
+    position: relative;
+    padding-top: 56px;
+    overflow: hidden;
+    .inner{
+        max-width: 948px;
+    }
+    h1{
+        margin-bottom: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6.2rem;
+        line-height: 1.1;
+        text-transform: uppercase;  
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 1.5;
+        color: #253649;
+        margin-bottom: 42px;
+    }
+    .kursk-sketch{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center bottom;
+        min-height: 130px;
+    }
+}

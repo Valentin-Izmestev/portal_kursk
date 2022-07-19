@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="320">
+	<title>Title here</title>
+
+	<meta charset="UTF-8">
+
+	<!--   Cascading Style Sheets-->
+	<!-- <link rel="stylesheet" href="css/style.css">  -->
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+    <div class="inner">
+        <div class="left-col">
+            <a href="/" class="logo-box"><img src="/img/logo.svg" class="logo" alt="Герб Курской области"></a>
+        </div>
+        <div class="right-col">
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#">Бизнесу</a></li>
+                    <li><a href="#">Промышленности</a></li>
+                </ul>
+            </nav>
+            <div class="decor-line"></div>
+            <span class="site-name">Портал поддержки бизнеса Курской области</span>
+        </div>
+    </div>
+</header>
+
+ 
+	<main>
+		<section class="classifier-section">
+			<div class="inner">
+				<h1 class="page-title page-title--alt">
+					Классификатор мер поддержки
+				</h1>
+				<div class="decor-line"></div>
+				<span class="db counter">
+					Всего мер поддержки: 000
+				</span>
+				<form class="megaform">
+					<fieldset>
+						<legend class="legend__level-1">Заявитель</legend>
+
+						<fieldset>
+							<legend class="legend__level-2">Тип заявителя</legend>
+							<label class="type-btn">
+								<input type="radio" name="subject" class="invise">
+								<span>Юридическое лицо</span>
+							</label>
+							<label class="type-btn">
+								<input type="radio" name="subject" class="invise">
+								<span>Индивидуальный предприниматель</span>
+							</label>
+						</fieldset>
+
+						<fieldset>
+							<legend class="legend__level-2">Вид деятельности</legend>
+							<label class="type-btn">
+								<input type="radio" name="type-of-activity" class="invise">
+								<span>Коммерческие организации</span>
+							</label>
+							<label class="type-btn">
+								<input type="radio" name="type-of-activity" class="invise">
+								<span>Некоммерческие организации</span>
+							</label>
+							<label class="type-btn">
+								<input type="radio" name="type-of-activity" class="invise">
+								<span>Юридические лица, в том числе некоммерческие организации, не являющимся
+									государственными (муниципальными) учреждениями</span>
+							</label>
+						</fieldset>
+						<div class="columns-box columns-box--two">
+							<fieldset>
+								<legend class="legend__level-2">Направление деятельности</legend>
+								<select name="test" class="castom-select">
+									<option value="one">Тестовое направление 1</option>
+									<option value="one">Тестовое направление 2</option>
+									<option value="one">Тестовое направление 3</option>
+								</select>
+							</fieldset>
+							<fieldset>
+								<legend class="legend__level-2">Статус МСП</legend>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="msp-status" value="true">
+									<span>Да</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="msp-status" value="false">
+									<span>Нет</span>
+								</label>
+							</fieldset>
+						</div>
+						<div class="decor-line"></div>
+						<fieldset>
+							<legend class="legend__level-1">Мера поддержки</legend>
+							<div class="columns-box columns-box--three">
+								<fieldset>
+									<legend class="legend__level-2">Тип поддержки</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="type-of-support" value="true">
+										<span>Нефинансовая</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="type-of-support" value="false">
+										<span>Финансовая</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<legend class="legend__level-2">Регулярность меры поддержки</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="regularity" value="true">
+										<span>Разовая</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="regularity" value="false">
+										<span>Регулярная</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<legend class="legend__level-2">Требуется подача заявки</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="an-application-is-required"
+											value="true">
+										<span>Да</span>
+									</label>
+
+									<label class="type-btn">
+										<input type="radio" class="invise" name="an-application-is-required"
+											value="false">
+										<span>Нет</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="columns-box columns-box--two-alt">
+								<fieldset>
+									<legend class="legend__level-2">Возможность повторного предоставления меры поддержки
+										заявителю</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-1" value="true">
+										<span>Нефинансовая</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-1" value="false">
+										<span>Финансовая</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<legend class="legend__level-2">Мера оказывается только в связи с распространением
+										коронавирусной инфекции</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-2" value="true">
+										<span>Разовая</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-2" value="false">
+										<span>Регулярная</span>
+									</label>
+								</fieldset>
+							</div>
+							<fieldset>
+								<legend class="legend__level-2">Направление поддержки</legend>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Аренда</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Займы</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Займы и компенсации</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Закупка</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Закупки</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Льготы</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Субсидии</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Консультационная, образовательная и информационная поддержка</span>
+								</label>
+
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Налоговые льготы</span>
+								</label>
+
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Субсидии и гранты</span>
+								</label>
+								<label class="type-btn">
+									<input type="radio" class="invise" name="type-support" value="false">
+									<span>Прочее</span>
+								</label>
+							</fieldset>
+							<div class="columns-box columns-box--two">
+								<fieldset>
+									<legend class="legend__level-2">Орган исполнительной власти, предоставляющий меру
+										поддержки:</legend>
+									<select name="test" class="castom-select">
+										<option value="one">Орган исполнительной власти 1</option>
+										<option value="one">Орган исполнительной власти 2</option>
+										<option value="one">Орган исполнительной власти 3</option>
+									</select>
+								</fieldset>
+								<fieldset>
+									<legend class="legend__level-2">Направление меры</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-3" value="true">
+										<span>Новый проект</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-3" value="false">
+										<span>Существующая организация</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="columns-box columns-box--two-alt">
+								<fieldset>
+									<legend class="legend__level-2">Уровень поддержки:</legend>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-4" value="true">
+										<span>Новый проект</span>
+									</label>
+									<label class="type-btn">
+										<input type="radio" class="invise" name="name-4" value="false">
+										<span>Существующая организация</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<legend class="legend__level-2">Регламентирующий НПА:</legend>
+									<select name="regnpa" class="castom-select">
+										<option value="one">Регламентирующий НПА 1</option>
+										<option value="one">Регламентирующий НПА 2</option>
+										<option value="one">Регламентирующий НПА 3</option>
+									</select>
+								</fieldset>
+							</div>
+						</fieldset>
+					</fieldset>
+					<div class="megaform__footer">
+						<div class="megaform-footer__inner">
+							<div class="left-col">
+								<span class="megaform__search-result">
+									Найдено мер поддержки: 000
+								</span>
+								<button type="submit" class="btn  btn--alt">Показать</button>
+							</div>
+							<div class="right-col">
+								<div class="file-box-container">
+									<span class="db caption_for_file-box">Выгрузить карточку</span>
+									<div class="file-box">
+										<a href="#" class="file-box__item file-box-item">
+											<span class="file-box-item__icon file-box-item__icon--docx"></span>
+											<span class="file-box-item__extention">*docx</span>
+										</a>
+										<a href="#" class="file-box__item file-box-item">
+											<span class="file-box-item__icon file-box-item__icon--pdf"></span>
+											<span class="file-box-item__extention">*pdf</span>
+										</a>
+										<a href="#" class="file-box__item file-box-item">
+											<span class="file-box-item__icon file-box-item__icon--xlsx"></span>
+											<span class="file-box-item__extention">*xlsx</span>
+										</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+    <div class="inner">
+         <img src="/img/logo.svg" alt="Герб Курской области" class="footer__logo">
+         <div class="copyright-box">
+            <p>
+                ©2022. Все права защищены. 
+            </p>
+            <p>
+                Официальный ресурс администрации Курской области
+            </p>
+         </div>
+         <ul class="social-box">
+            <li>
+                <a href="#" class="social-box__item social-box__item--vk"></a>
+            </li>
+            <li>
+                <a href="#" class="social-box__item social-box__item--telegram"></a>
+            </li>
+         </ul>
+    </div> 
+</footer>
+	<!-- ++++++++++JavaScript++++++++++-->
+	<!-- <script type="text/javascript" src="js/jquery-1.12.1.js"></script> -->
+	<script src="js/script.min.js"></script>
+	<!-- ++++++++++JavaScript end++++++++++-->
+</body>
+
+</html>

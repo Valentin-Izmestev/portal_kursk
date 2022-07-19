@@ -1,0 +1,30 @@
+iframe{
+    width: 100%;
+}
+.header {
+    background: red;
+}
+@media screen and (max-width: 1000px) {
+    .header {
+        background-color: green;
+    }
+}
+
+
+main{
+    background-color: rebeccapurple;
+    .inner{
+        padding: 100px;
+        h2{
+            margin-bottom: 50px;
+            span{
+                color: rgb(0, 255, 0);
+            }
+        }
+    }
+}
+
+
+.footer {
+    background-color: blue;
+}

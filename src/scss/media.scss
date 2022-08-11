@@ -230,6 +230,29 @@
             margin-bottom: 2rem;
         }
     }
+    .question {
+        background-color: var(--bg-color-alt);
+        box-sizing: border-box;
+        margin-bottom: 3rem;
+        padding: 1.5rem;
+        text-align: center; 
+        .question__text {
+            margin-bottom: 2rem; 
+        }
+        .question__answer-box {
+            flex-direction: column;
+        }
+        .btn--answer {
+            min-height: 4.5rem;
+            width: 100%;
+            padding: 1rem 1rem;
+            min-width: 100%;
+            &:not(:last-child){
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 470px){
     .measures-control .inner { 

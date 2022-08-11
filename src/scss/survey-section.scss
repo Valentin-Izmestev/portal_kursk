@@ -1,0 +1,32 @@
+.survey-section{
+    .page-title{
+        margin-bottom: 5rem;
+    }
+}
+.question{
+    background-color: var(--bg-color-alt);
+    padding: 3rem;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+    .question__number{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+    .question__text{
+        margin-bottom: 3rem;
+        line-height: 1.4;
+    }
+    .question__answer-box{
+        display: flex;
+    }
+    .btn--answer{
+        min-height: 4.5rem;
+        width: auto;
+        padding: 1rem 1rem;
+        min-width: 200px;
+        &:not(:last-child){
+            margin-right: 1.5rem;
+        }
+    }
+}

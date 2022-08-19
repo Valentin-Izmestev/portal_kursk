@@ -1127,11 +1127,14 @@ legend {
 .inputbox__type-square {
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 5px;
 }
 .inputbox__type-square:not(:last-child) {
   margin-right: 2rem;
 }
 .inputbox__type-square .label-caption {
+  position: relative;
+  top: -3px;
   font-size: 1.5rem;
   margin-right: 0.8rem;
 }
@@ -1557,6 +1560,86 @@ legend {
 }
 .megaform__footer .btn--alt:hover, .megaform__footer .btn--alt:active, .megaform__footer .btn--alt:focus {
   color: #ffffff;
+}
+
+.haron {
+  position: fixed;
+  width: 30px;
+  height: 70px;
+  top: 50%;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #D9D9D9;
+  border-radius: 30px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.haron--show {
+  opacity: 1;
+  visibility: visible;
+}
+.haron .haron__go-top,
+.haron .haron__go-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.haron .haron__go-top svg,
+.haron .haron__go-bottom svg {
+  stroke: #D9D9D9;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.haron .haron__go-top:hover svg,
+.haron .haron__go-bottom:hover svg {
+  stroke: var(--element-bg);
+}
+.breadcrumps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 3.4rem;
+}
+.breadcrumps li {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.breadcrumps li:not(:last-child)::after {
+  content: "/";
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.breadcrumps li a {
+  color: var(--element-bg);
 }
 
 .header {
@@ -2031,6 +2114,11 @@ legend {
   margin-right: 1.5rem;
 }
 
+@media screen and (max-width: 1320px) {
+  .haron {
+    display: none;
+  }
+}
 @media screen and (max-width: 1180px) {
   .megaform .columns-box.columns-box--two {
     -ms-grid-columns: 1fr 1fr;
